@@ -3,9 +3,9 @@
 /**
  * main : this is the entry point for the program
  *
- * Return: this returns zero if positive and non-zero value if negative
+ * Description: use puts to print text
  *
- * Description: this prints a text using puts
+ * Return: this returns zero if positive and non-zero value if negative
  */
 
 int main(void)
