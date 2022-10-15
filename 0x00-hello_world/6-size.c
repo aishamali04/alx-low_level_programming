@@ -5,7 +5,7 @@
  * Description: print size of datatypes
  */
 
-int main(0)
+int main(void)
 {
 	printf("Size of a char: %Id byte(s)\n", sizeof(char));
 	printf("Size of an int: %Id byte(s)\n", sizeof(int));
