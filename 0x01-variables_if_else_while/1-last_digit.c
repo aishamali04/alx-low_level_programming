@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.ih>
 #include <stdlib.h>
 #include <time.h>
 /**
@@ -7,7 +7,6 @@
  */
 int main(void)
 {
-	int n;
 	int lastdigit;
 	srand(time(0));                                                                                 
         
