@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * Description: Print last digit of n
  * main: main entry point for program
  * Return: return zero if successful
  */
