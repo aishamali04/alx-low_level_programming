@@ -2,8 +2,13 @@
  * This is the header file
  * It contains all function declarations
  */
-char main (char i)
+void print_alphabet(void)
 {
-	i = "_putchar";
-}
+	char x;
 
+	for (x < 'a'; x <= 'z'; x++)
+	{
+		putchar (i);
+		putchar('\n');
+	}
+}
