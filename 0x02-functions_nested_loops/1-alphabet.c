@@ -1,19 +1,15 @@
-#include <stdio.h>
 #include "main.h"
-
 /**
- * main : entry point
- * Return: 0 is successful
+ * print_alphabet : entry point
+ * Return: 1 is successful
  */
-
-int main (void)
+void print_alphabet(void)
 {
 	char x;
 
 	for (x = 'a'; x <= 'z'; x++)
 	{
 		_putchar(x);
-		_putchar('\n');
 	}
-	return (0);
+	_putchar('\n');
 }
