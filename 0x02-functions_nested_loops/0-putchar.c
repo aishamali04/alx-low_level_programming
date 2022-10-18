@@ -4,10 +4,11 @@
  * main : Entry point for program
  * Return : 0 if successful
  */
-int main(void)
+int task(void)
 {
-	i = "_putchar"
-	putchar(i'\n');
+	char var = main(i);
+	
+	putchar(var'\n');
 
 	return (0);
 }

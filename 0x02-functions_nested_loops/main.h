@@ -2,7 +2,8 @@
  * This is the header file
  * It contains all function declarations
  */
-main(void)
+char main (void)
 {
-	char i;
+	char i = "_putchar";
 }
+
