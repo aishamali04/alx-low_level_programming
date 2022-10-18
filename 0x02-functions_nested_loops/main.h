@@ -1,3 +1,4 @@
+#include <stdio.h>
 /**
  * This is the header file
  * It contains all function declarations
