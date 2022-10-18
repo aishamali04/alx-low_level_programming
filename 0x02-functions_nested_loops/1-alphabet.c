@@ -3,11 +3,17 @@
 
 /**
  * main : entry point
- * Return : 0 if successful
+ * Return: 0 is successful
  */
 
-int main(void)
+int main (void)
 {
-	print_alphabet();
+	char x;
+
+	for (x = 'a'; x <= 'z'; x++)
+	{
+		_putchar(x);
+		_putchar('\n');
+	}
 	return (0);
 }
