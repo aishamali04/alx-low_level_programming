@@ -10,13 +10,13 @@ void jack_bauer(void)
 	int hour;
 	int hours;
 
-	for  (hour >= 0; hour <= 2; hour++)
+	for  (hour = 0; hour <= 2; hour++)
 	{
-		for (hours >= 0; hours <= 9; hours++)
+		for (hours = 0; hours <= 9; hours++)
 		{
-			for (minute >= 0; minute <= '5'; minute++)
+			for (minute = 0; minute <= '5'; minute++)
 			{
-				for (minutes >= 0; minutes <= 9; minutes++)
+				for (minutes = 0; minutes <= 9; minutes++)
 				{
 					if (hour == 2 && hours > 3)
 				{
