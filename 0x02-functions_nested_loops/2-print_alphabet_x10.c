@@ -5,10 +5,11 @@
 void print_alphabet_x10(void)
 {
 	char x;
-	char size;
 
 	for (x = 'a'; x <= 'z'; x++)
 	{
+		int size;
+
 		while (size < 10)
 		{
 			_putchar (x);
