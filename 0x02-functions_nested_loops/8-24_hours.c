@@ -19,15 +19,16 @@ void jack_bauer(void)
 				for (minutes = 0; minutes <= 9; minutes++)
 				{
 					if (hour == 2 && hours > 3)
-				{
+					{
 					break;
-				}
+					}
 				_putchar (hour + '0');
 				_putchar (hours + '0');
 				_putchar (':');
 				_putchar (minute + '0');
 				_putchar (minutes + '0');
 				_putchar('\n');
+				}
 			}
 		}
 	}
