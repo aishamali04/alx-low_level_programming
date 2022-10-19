@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include "main.h"
 /**
- *Description : print_alphabet : prints lower case alphabets
+ * print_alphabet - prints lower case alphabets
+ * Description - this task prints ll lowecase letters using _putchar function
  */
 void print_alphabet(void)
 {
