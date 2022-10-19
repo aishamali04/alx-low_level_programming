@@ -12,9 +12,5 @@ int _abs(int x)
 	{
 		absval = x * (-1);
 	}
-	else
-	{
-		return (0);
-	}
 	return (absval);
 }
