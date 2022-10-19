@@ -8,7 +8,7 @@ int print_last_digit(int x)
 {
 	int last_digit;
 
-	last_digit = x % 10;
+	x = x % 10;
 
 	/**
 	 *possibility of x being negative,
