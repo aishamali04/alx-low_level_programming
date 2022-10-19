@@ -1,12 +1,10 @@
 #include "main.h"
 /**
- * main : prints function name
- * Return : 0
+ * int _putchar - prints function name
+ * Return - 0
  */
-int main(void)
+int _putchar(char c)
 {
-	char c = "_putchar";
-	  _putchar (c);
-
+	_putchar ("%s", __func__);
 	return (0);
 }
