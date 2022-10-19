@@ -2,7 +2,7 @@
 /**
  * _abs - computes the absolute value of an integer
  *@x: variable
- *Return: 0 if successful
+ *Return: absolute value if successful
  */
 int _abs(int x)
 {
@@ -16,4 +16,5 @@ int _abs(int x)
 	{
 		return (0);
 	}
+	return (absval);
 }
