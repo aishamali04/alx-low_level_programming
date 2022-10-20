@@ -1,6 +1,7 @@
 #ifndef main_h
 #define main_h
 /*this is the header file for the project */
+extern int _putchar(char c);
 extern int _isupper(int c);
 extern int _isdigit(int c);
 extern int mul(int a, int b);
