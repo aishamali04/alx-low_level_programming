@@ -1,6 +1,6 @@
 #include <unistd.h>
 /**
- * main: entry point
+ * main - entry point
  * Return: one if successful
 */
 int main(void)

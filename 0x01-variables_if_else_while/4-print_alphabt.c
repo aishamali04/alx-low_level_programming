@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main: entry point
+ * main - entry point
  * Description: print lowercase except e and q
  * Return: 0 if successful
 */

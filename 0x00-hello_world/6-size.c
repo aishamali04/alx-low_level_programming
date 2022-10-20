@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main: entry point
+ * main - entry point
  * Return: zero means success
  * Description: print size of datatypes
  */
@@ -11,5 +11,5 @@ int main(void)
 	printf("Size of a long int: %Id bytes(s)\n", sizeof(long int));
 	printf("Size of a long long int: %Id bytes(s)\n", sizeof(long long int));
 	printf("Size of a float: %Id bytes(s)", sizeof(float));
-	return (0);
-}	
+return (0);
+}

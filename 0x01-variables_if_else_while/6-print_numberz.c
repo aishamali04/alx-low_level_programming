@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main: entry point
+ * main - entry point
  * Description: print numbers without char
  * Return: 0 if successful
  */
