@@ -1,9 +1,8 @@
-#include "main.h"
 #include <stdio.h>
 /**
- * print_fizz_buzz - prints Fizz for multiples of 3 and Buzz for muls of 5.
+ * print_fizz_buzz - prints Fizz for multiples of 3 and Buzz for muls of 5
  */
-void print_fizz_buzz(void)
+int main(void)
 {
 	int x;
 
@@ -26,4 +25,6 @@ void print_fizz_buzz(void)
 			printf("%d ", x);
 		}
 	}
+	printf("\n");
+	return (0);
 }
