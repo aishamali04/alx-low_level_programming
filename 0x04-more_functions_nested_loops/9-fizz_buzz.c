@@ -8,7 +8,7 @@ int main(void)
 	int x;
 	int i = 100;
 
-	for (x = 1; x <=i; x++)
+	for (x = 1; x <= i; x++)
 	{
 		if ((x % 3 == 0) && (x % 5 == 0))
 		{
