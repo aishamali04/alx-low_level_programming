@@ -11,5 +11,5 @@ int mul(int a, int b)
 	/*product of a and b */
 	product = a * b;
 
-	return (0);
+	return (product);
 }
