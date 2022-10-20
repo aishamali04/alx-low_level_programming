@@ -1,28 +1,30 @@
 #include <stdio.h>
 /**
- * print_fizz_buzz - prints Fizz for multiples of 3 and Buzz for muls of 5
+ * main - prints Fizz for multiples of 3 and Buzz for muls of 5
+ * Return: 0 is success
  */
 int main(void)
 {
 	int x;
+	int i = 100;
 
-	for (x = '1'; x < '100'; x++)
+	for (x = 1; x <=i; x++)
 	{
-		if (x % '3' == '0')
+		if ((x % 3 == 0) && (x % 5 == 0))
 		{
-			printf("Fizz ");
+			printf(" FizzBuzz");
 		}
-		else if (x % '5' == '0')
+		else if (x % 3 == 0)
 		{
-			printf("Buzz");
+			printf(" Fizz");
 		}
-		else if (x % '15' == '0')
+		else if (x % 5 == 0)
 		{
-			printf("FizzBuzz ");
+			printf(" Buzz");
 		}
 		else
 		{
-			printf("%d ", x);
+			printf(" %d", x);
 		}
 	}
 	printf("\n");
