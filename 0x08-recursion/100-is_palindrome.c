@@ -30,6 +30,7 @@ int compare_string(char *s, int n, int x)
 	if (*(s + n) == *(s + x))
 	{
 		return (1);
+	}
 	return (0 + compare_string(s, n + 1, x - 1));
 	}
 	return (0);
