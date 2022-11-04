@@ -9,7 +9,7 @@
 
 int search_prime(int n, int x)
 {
-	if (n % x ==0)
+	if (n % x == 0)
 	{
 		if (n == x)
 			return (1);
@@ -32,6 +32,6 @@ int is_prime_number(int n)
 		return (0);
 	if (n == 1)
 		return (0);
-	return (0 + is_prime_number(n, x + 1));
+	return (0 + search_prime(n, 2));
 }
 
