@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 	if (argc == 3)
 	{
 		for (y = 1; y < argc, y++)
-			x = x * strtol(argv[i], NULL, 10);
+			x = x * strtol(argv[y], NULL, 10);
 		printf("%d\n", x);
 	}
 	else
