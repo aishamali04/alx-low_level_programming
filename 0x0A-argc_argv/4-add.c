@@ -1,14 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+int is_number(char *str);
 /**
  * main - main method
  * @argc: arg count
  * @argv: arg vector
  * Return: success
  */
-int is_number(char *str);
-
 int main(int argc, char *argv[])
 {
 	int x = 0;
