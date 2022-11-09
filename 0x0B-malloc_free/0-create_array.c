@@ -1,8 +1,8 @@
-#include "holberton.h"
+#include  "main.h"
 #include <stdlib.h>
 
 /**
- * *create_array -func that creates and arrays and initializes it with a char
+ * *create_array -function tht creates an array of chars, and initializes it with a specific char
  * @c: character
  * @size: num of bytes to allocate
  * Return: pointer to array, otherwise null
